@@ -1,0 +1,30 @@
+Season XII Round 2 (100/100 Points) (28/28 Vulns)
+--------------------------------------------------------------------------------------
+Forensic Question 1 correct - 8 pts 
+Forensic Question 2 correct - 8 pts 
+Removed unauthorized user joker - 2 pts 
+Removed unauthorized user rghul - 2 pts 
+User ace is not an administrator - 2 pts 
+User hstrange is not an administrator - 2 pts 
+Changed insecure password for apennyworth - 2 pts 
+Changed insecure password for tdrake - 2 pts 
+Created user account lfox - 5 pts 
+A secure maximum password age exists - 2 pts 
+A secure lockout threshold exists - 2 pts 
+Do not display last user name [enabled] - 5 pts 
+Audit User Account Management [Failure] - 5 pts 
+Limit local use of blank passwords to console only [enabled] - 5 pts 
+Firewall protection has been enabled - 2 pts
+Remote desktop sharing is turned off - 2 pts 
+FTP service has been stopped and disabled - 2 pts 
+Windows Update service is enabled - 5 pts 
+The majority of Windows updates are installed - 2 pts 
+Firefox has been updated - 3 pts 
+Thunderbird has been updated - 5 pts 
+Removed prohibited MP3 files - 3 pts 
+Removed Driver Support - 3 pts 
+Removed Wireshark - 3 pts 
+Removed Angry IP scanner - 3 pts 
+Removed NetBus Pro - 5 pts
+Firefox pop up blocker enabled - 5 pts 
+Firefox blocks dangerous downloads - 5 pts 

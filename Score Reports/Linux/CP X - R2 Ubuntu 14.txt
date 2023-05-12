@@ -1,0 +1,38 @@
+Season X Round 2 (97/100 points) (35/36)
+-------------------------------------------------------
+Forensic Question 1 correct - 5pts
+Forensic Question 2 correct - 5pts 
+Forensic Question 3 correct - 5pts
+Removed unauthorized user scotty - 2pts
+Removed unauthorized user chekov - 2pts 
+User pauline is not an Administrator - 2pts
+Created user account penguru - 2pts
+User penguru is an Administrator - 2pts 
+Created user group pipefitters - 2pts
+Users added to group pipefitters - 2pts
+A default maximum password age is set - 3pts
+A minimum password length is required - 4pts
+Insecure sudo configuration fixed - 3 pts
+IPv4 TCP SYN cookies have been enabled - 3 pts 
+IPv4 forwarding has been disabled - 3 pts
+Firewall protection has been enabled - 2pts
+Postgresql has been disabled or removed - 3pts
+Apache2 service has been disabled or removed - 4pts
+Linux Kernel has been updated - 2pts 
+Sudo has been updated - 2pts
+Vsftpd has been updated - 2 pts
+Firefox has been updated - 2pts 
+Prohibited MP3 files are removed - 2pts
+Stellarium has been installed - 3pts
+Prohibited software hydra removed - 2 pts
+Prohibited software aircrack-ng removed - 2pts 
+Prohibited software Freeciv removed - 2pts
+Removed netcat backdoor - 4pts
+Firefox displays warning on known malware sites - 2pts
+SSH Protocol 1 has been disabled - 3pts 
+FTP local users must log in as anonymous - 3 pts
+FTP anonymous write commands are disabled - 3pts
+FTP PASV security checks enabled - 3 pts
+FTP anonymous user is not root - 3pts 
+Insecure permissions on FTP root directory fixed - 3pts
+

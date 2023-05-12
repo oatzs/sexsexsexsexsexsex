@@ -1,0 +1,30 @@
+Season XI Round 2 (100/100 Points) (26/26 Vulns)
+--------------------------------------------------------------------------------------
+Forensic Question 1 correct - 8 pts
+Forensic Question 2 correct - 8 pts
+Created group tomb - 4 pts
+Added users to group tomb - 4 pts 
+Removed unauthorized user ana - 3 pts 
+Guest account is not enabled - 3 pts 
+User jacob is not an administrator - 3 pts
+User abby is not an administrator - 3 pts 
+Changed insecure password for user conrad - 3 pts 
+User etzli has a password - 3 pts 
+A secure minimum password length is required - 3 pts 
+A secure lockout threshold exists - 3 pts 
+Do not display last user name [enabled] - 4 pts
+Do not require CTRL+ALT+DEL [disabled] - 4 pts
+Firewall protection has been enabled - 4 pts
+Remote desktop sharing is turned off - 4 pts 
+File sharing disabled for C drive - 4 pts 
+Telnet service has been stopped and disabled - 4 pts 
+The majority of Windows updates are installed - 4 pts
+Windows automatically checks for updates - 4 pts
+Firefox has been updated - 4 pts 
+Adobe Reader DC has been updated - 4 pts 
+Removed prohibited MP3 files - 3 pts 
+Removed uTorrent - 3 pts
+Removed Nmap - 3 pts
+Removed Kodi - 3 pts
+
+

@@ -1,0 +1,48 @@
+FORENSICS:
+    Q1 - 65530
+    Q2 - 39:db:51:90:d3:e0:e2:ef:19:b9:ce:f3:6a:90:f5:7d
+    Q3 - Victory Umbrella
+USER AUDITING:
+    Removed unauthorized user ragnarok
+    Removed unauthorized user igor
+    User ken is not an administrator
+    User wildcat is not an administrator
+    User rio has a password
+ACCOUNT POLICY:
+    A secure account lockout duration exists
+    A secure maximum password age exists
+LOCAL POLICY:
+    Audit Computer Account Management [Failure]
+    Users may not change the system time
+    Do not allow anonymous enumeration of SAM accounts and shares [enabled]
+    Switch to the secure desktop when prompting for elevation [enabled]
+UNCATEGORIZED OPERATING SYSTEM SETTINGS:
+    Remote Assistance connections have been disabled
+    Enumerate administrator accounts on elevation - disabled
+    Data Execution Prevention enabled
+SERVICE AUDITING:
+    Net.Tcp Port Sharing Service has been stopped and disabled
+    Remote Registry service has been stopped and disabled
+OPERATING SYSTEM UPDATE:
+    Windows automatically check for updates
+APPLICATION UPDATE:
+    PHP 5.6
+    PuTTY
+    Geany
+    Firefox automatically updates
+PROHIBITED FILE:
+    Removed php backdoor
+    C:\Windows\users.csv - Removed file with users and passwords
+UNWANTED SOFTWARE:
+    Removed TightVNC Server
+    Removed BitTornado
+    Removed John the Ripper
+    Removed Advanced Port Scanner
+MALWARE:
+    Removed netcat backdoor
+APPLICATION SECURITY:
+    PHP log errors have been enabled
+    PHP system function is disabled
+    Internet Explorer Enhanced Security Configuration is enabled
+    IIS default web site directory browsing disabled
+    IIS detailed error mode disabled

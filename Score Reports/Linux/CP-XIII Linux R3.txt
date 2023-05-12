@@ -1,0 +1,82 @@
+2020-2021 Round 3 (Ubuntu 18)
+
+Vulns Listed - 37/37 - 100/100
+Forensics Question 1 Correct - 6
+Forensics Question 2 Correct - 6
+Forensics Question 3 Correct - 6
+Removed  hidden user akatosh - 3
+Removed unauthorized user alduin - 2
+User belethor is not an administrator - 2
+Disabled password login for user bin - 3
+Disabled shell login for user irc - 3
+Previous passwords are remembered - 3
+A default minimum password age is set - 2
+An account lockout policy is configured - 3
+Null passwords do not authenticate - 3
+X Server does not allow TCP connections - 3
+IPv$ TCP SYN cookies have been enabled - 2
+Ignore broadcast ICMP echo requests enabled - 2
+Insecure sudo configuration fixed - 3
+Uncomplicated Firewall (UFW) protection has been enabled - 2
+Insecure permissions on shadow file fixed - 3
+IRC Daemon has been disabled or removed - 2
+AppArmor service is enabled and running - 3
+Install updates from important security updates - 1
+Linux Kernel has been updated - 2
+APT has been updated - 1
+Firefox has been updated - 1
+Samba has been updated - 2
+Prohibited MP3 files are removed - 3
+Prohibited software dsniff removed - 2
+Prohibited software linuxdcpp removed - 2
+Prohibited software rfdump removed - 2
+Prohibited software heartbleeder removed - 2
+Removed perl owl-shell backdoor - 4
+Fixed insecure permissions on find - 4
+Firefox checks the current validity of certificates - 2
+Samba SMB1 protocol is disabled - 3
+Unauthorized Samba share is disabled - 2
+Insecure permissions on Samba share fixed - 2
+Samba encryption is required - 3
+
+
+2020-2021 Round 3 (Debian 9)
+
+Vulns Listed - 37/37 - 100/100
+Forensics Question 1 Correct - 5
+Forensics Question 2 Correct - 5
+Forensics Question 3 Correct - 5
+Forensics Question 4 Correct - 5
+Removed unauthorized user bahamut - 2
+Removed hidden user sephiroth - 3
+User jessie is not an administrator - 2
+Disabled shell login for user games - 2
+User rtuesi has a maximum password age - 2
+Password for zfair hashed with a secure algorithm - 3
+A minimum password length is required - 2
+Extra dictionary password checks enabled - 3
+A secure password hashing algorithm is used - 2
+A default maximum password age is set - 2
+IPv4 TIME-WAIT assassination protection enabled - 3
+Logging of martian packets enabled - 2
+Restrict unprivileged access to kernel syslog enabled - 3
+Uncomplicated firewall (UFW) protection has been enabled - 2
+Insecure permissions on PostgreSQL configuration files fixed - 3
+GRUB configuration is not world readable - 2
+Apache service has been disabled or removed - 2
+Samba service has been disabled or removed - 2
+DNS service has been disabled or removed - 2
+Install updates from important security updates - 1
+PostgreSQL has been updated - 3
+Firefox has been updated - 2
+Prohibited MP3 files removed - 3
+Prohibited software cupp3 removed - 2
+Prohibited software cmospwd removed - 2
+Prohibited software fcrackzip removed - 2
+Removed netcat backdoor - 3
+Removed python backdoor - 3
+PostgreSQL rejects all non-local connection requests without SSL - 3
+PostgreSQL required authentication for all connections - 4
+PostgreSQL has ssl enabled (ssl = true) - 4
+PostgreSQL configured to log connections - 2
+PostgreSQL does not map any user to the postgres account - 2

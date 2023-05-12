@@ -1,0 +1,33 @@
+Season X States (84/100 Points) (31/44 Vulns)
+---------------------------------------------------------------------------------------------
+Forensics Question 1 correct - 7 pts
+Forensics Question 2 correct - 7 pts
+Forensics Question 3 correct - 7 pts
+Removed unauthorized user jsnow - 1 pts 
+Removed unauthorized user tlannister - 1 pts 
+User jwest is not an administrator - 1 pts 
+User savitar is not an administrator - 1 pts 
+User account nallen is enabled - 1 pts
+Changed insecure password for jwells - 1 pts 
+A secure minimum password age exists - 2 pts
+Passwords must meet complexity requirements - 2 pts 
+A secure account lockout observation window exists - 2 pts
+Account logon failures are logged - 2 pts
+Recovery console: Allow automatic administrative logon [disabled] - 2 pts
+File sharing disabled for Managers directory - 2 pts
+Event log service is running - 3 pts
+Telnet service has been stopped and disabled - 3 pts 
+SNMP service has been stopped and disabled - 3 pts 
+Windows Service Pack 2 is installed - 2 pts
+Geany has been updated - 3 pts 
+PuTTY has been updated - 3 pts 
+FileZilla Server has been updated - 3 pts 
+Removed plain text file with passwords in it - 2 pts 
+Removed BoomBox Radio Player - 2 pts 
+Removed Abyss Web Server - 2 pts 
+Removed Wireshark - 2 pts 
+Removed TX backdoor - 4 pts 
+Removed Spyrix Keylogger - 4 pts 
+Internet Zone: Enable Protected Mode [Enabled] - 3 pts
+Firefox blocks reported web forgeries - 3 pts  
+FTP anonymous write disabled - 3 pts 

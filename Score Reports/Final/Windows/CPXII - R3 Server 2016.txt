@@ -1,0 +1,36 @@
+CPXII - R3 Server 2016 100/100 34/34 vulns
+
+Forensics 1 Correct - 8
+Forensics 2 Correct - 8
+Forensics 3 Correct - 8
+Removed unauthorized user jheinerth - 1
+Removed unauthorized user icrabb - 1
+User espence is not an administrator - 1
+Created group scuba - 1
+Added users to group scuba - 1
+Passwords must meet complexity requirements - 2
+Passwords are not stored using reversible encryption - 2
+Audit Security Group Management [failure] - 1
+Everyone may not access this computer from the network - 3
+Do not display last user [enabled] - 2
+Do not store LAN Manager hash value on the next password change [enabled] - 2
+Recovery Console: Allow automatic administrative login [disabled]- 2
+AutoPlay has been disabled for all users - 3
+Remote Registry service has been stopped and disabled - 1
+Net Tcp Port sharing service stopped and disabled - 4
+Windows automatically checks for updates - 2
+A majority of important Windows updates installed - 1
+Java JRE 8 has been updated - 2
+Adobe Reader DC has been updated - 2
+Tortoise HG has been updated - 2
+Removed Cain and Abel software archive - 4
+Removed TightVNC Server - 4
+Removed John The Ripper - 2
+Removed Open TFTP Server - 2
+Removed Reveal Keylogger - 4
+IIS default web site directory browsing disabled - 5
+IIS detailed errors disabled - 5
+Internet Explorer Enhanced Security Configuration is enabled - 4
+Firefox warns when sites try to install add-ons - 4
+DEP Bcdedit.exe /set {current} nx AlwaysOn - 5
+Set User from disable to enable? - 1

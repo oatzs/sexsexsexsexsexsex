@@ -1,0 +1,22 @@
+Season X Round 1 (100/100 Points) (20/20 Vulns)
+----------------------------------------------------------------------------------
+Forensic Question 1 correct - 8 pts
+Forensic Question 2 correct - 8 pts
+Removed unauthorized user wart - 4 pts
+Removed unauthorized user tatanga - 4 pts 
+User bowser is not an administrator - 4 pts 
+Changed insecure password for boo - 4 pts
+Created user account pakkun - 4 pts
+A secure minimum password length is required - 5 pts
+Firewall protection has been enabled - 5 pts
+Antivirus protection has been enabled - 5 pts
+Telnet service has been stopped and disabled - 6 pts
+Windows automatically checks for updates - 4 pts 
+Firefox has been updated - 4 pts
+Removed Garden Planner - 5 pts
+Removed Vistumbler - 5 pts
+Removed VirtualDJ8 - 5 pts
+Removed WIreshark - 5 pts
+Do not require CTRL ALT DEL - 5 pts
+Limit local use of blank passwords to console only - 5 pts
+Service Pack downloaded - 5 pts

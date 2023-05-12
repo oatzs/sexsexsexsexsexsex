@@ -1,0 +1,32 @@
+2019 STATE ROUND WINDOWS 10 (100/100) (30/30)
+
+Forensics 1 - 8
+Forensics 2 - 8
+Removed jtaylor - 2
+Removed rkohler - 2
+User agabr password expires - 2
+User drutkowski password expires - 2
+Changed insecure password for pdiole - 2
+User jchatterton is an administrator - 2
+A secure maxmimum password age exists - 2
+A sufficient password history is being kept - 2
+User ttesei may not take ownership of files or other objects - 3
+Prevent users from installing printer drivers (enabled) - 3
+Limit local use of blank passwords to console only (enabled) - 3
+Antivirus protection has been enabled - 3
+AutoRun Commands have been disabled - 5
+File sharing is disabled for hidden share CSS - 5
+WebClient Service has been stopped and disabled - 2
+LDP service has been stopped and disabled - 2
+Windows automatically checked for updates - 2
+Removed Nikto scanning software archive - 5
+VLC has been updated - 3
+Removed HashCat - 3
+Removed Abyss Web Server - 2
+Removed Nmap - 2
+Removed Tini backdoor - 3
+Internet explorer has been installed - 5
+RDP connection encryption level has been set to high - 5
+Require secure RPC communication - 4
+Do not allow drive redirection - 5
+Firefox blocks dangerous downloads - 3

@@ -1,0 +1,28 @@
+2019 PLATINUM SEMIFINAL ROUND WINDOWS 10 (/100) (26/30)
+
+Forensic Question  1 Check Passed - Answer 192.168.50.70
+Forensic Question 2 Passed - Answer: 1st answer: tamaki, 2nd answer: 210-540-9900, 3rd Answer: uraraka@ua.org
+Forensic Question 3 Passed - Answer: Plus Ultra!
+Application security Check passed - IE ehaced secerity on
+Application Update check passed - Updatig thunderbird
+User auditing check passed - password
+User auditing check passed - deleted chisaki
+User auditing check pssed - changed iida to non admin
+User auditing check pssed - deleted toga
+User auditing check passed - password never expires unchecked
+User auditing check passed - password never expires unchecked
+Account policy check passed - script
+Account policy check passed - script
+Local Policy check passed - script
+Local Policycheck passed - script
+Local Policy Check Passed - script 
+Uncategorized operating system setting check passed(enhanced securit congif - on)
+Service auditing check passed - script
+Application update check passed - firefox
+Application update check passed - thunderbird
+Unwanted Software check passed - tightvnc 
+Malware check passed - malware bytes
+Malware check passed - malware bytes
+Application Security check passed - idk somehting to do with internet explorer security
+Application security check passed - idk
+Made certificate tls and ftp for filezilla - 2 pts

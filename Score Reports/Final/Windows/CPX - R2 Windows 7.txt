@@ -1,0 +1,25 @@
+Season X Round 2 (68/100 Points) (23/34 Vulns)
+-------------------------------------------------------------------------------------
+Forensic Question 1 correct - 6 pts
+Forensic Question 2 correct - 6 pts
+Forensic Question 3 correct - 6 pts
+Create user account penguru - 2pts
+Created group pipefitters - 2 pts
+Added users to group pipefitters - 2pts
+Removed unauthorized user hermione - 2 pts
+Removed unauthorized user harry - 2pts
+Guest account is not enabled - 2 pts 
+User lemmy has a password - 2 pts 
+A secure minimum password age exists - 3 pts 
+Firewall protection has been enabled - 2 pts
+Remote Assistance connections have been disabled - 3pts 
+Remote Registry service has been stopped and disabled - 4 pts 
+Windows automatically checks for updates - 3 pts
+Java JRE8 has been updated - 3pts
+Gimp has been updated - 3 pts
+Removed Driver Booster - 2pts
+Removed Arcade Lines - 2 pts
+Removed Lazersoft - 2 pts 
+Removed Vistumbler - 2pts 
+Removed Radmin Server - 2 pts
+Removed Tx backdoor - 5 pts

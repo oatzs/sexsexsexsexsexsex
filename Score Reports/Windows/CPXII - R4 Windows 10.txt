@@ -1,0 +1,31 @@
+2019 PLATINUM SEMIFINAL ROUND WINDOWS 10 (/100) (28/40)
+
+
+Forensics 1: 4500
+Forensics 2: bgilliam, egagnan, jchatterton
+Forensics 3: DESKTOP-OJNTU9C 
+User audting check passed  - ran users script
+User audting check passed  - ran users script
+User audting check passed  - ran users script
+User audting check passed - made egangan admin
+User auditing check passed - ssh deleted account hidden user
+Account policy: ran scipt
+Account policy: ran sciptr
+Local policy : ran scirpt
+Local policy: ran scirpt
+Local policy: idk
+Loacl policy: idk
+Defensive countermesaure check passed: turn on firewall
+Defensive countermesaure: fix internet, deleted ncmpac internet, restarted
+Uncategorized system setting check: Turn on real time protection
+Uncategorized shystem check: Do not display prvaitcy setting experience disabled
+Service auditing check passed: ran service script
+Service auditing check passed: idk?
+Operating system update(2)- Enable automatic udpates
+Application update check- updated vlc
+Application update check - filezilla
+Malware check passed - removed backdoor with windows defender sacan
+Application security(2): port number 223
+Application secuetiy (3) - install IE
+Application security- strict policy in firefox
+Application security(4): Require secure RPC communication

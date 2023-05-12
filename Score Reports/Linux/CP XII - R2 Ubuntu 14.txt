@@ -1,0 +1,32 @@
+Season XII - Round 2 (30/30 vulns) (100/100 points)
+--------------------------------------------------------------------------------
+Forensics Question 1 correct - 8 pts
+Forensics Question 2 correct - 8 pts
+Forensics Question 3 correct - 8 pts
+Removed unauthorized user mfreeze -2 pts
+Removed unauthorized user joker - 2 pts 
+Removed unauthorized user rghul - 2 pts 
+User harold is not an administrator - 2 pts 
+User skyle is not an administrator - 4 pts 
+Changed insecure password for user bgordon - 2 pts 
+Created user account ace - 2 pts 
+A default maximum password age is set - 2 pts 
+A default minimum password age is set - 4 pts
+IPv4 TCP SYN cookies have been enabled - 4 pts 
+Ignore broadcast ICMP echo requests enabled - 4 pts
+Sudo requires authentication - 4 pts 
+Uncomplicated Firewall (UFW) protection has been enabled - 2 pts 
+Insecure permissions on shadow file fixed - 4 pts 
+Apache2 service has been disabled or removed - 2 pts 
+Postgresql has been disabled or removed - 4 pts 
+The system automatically checks for updates daily - 2 pts 
+Install updates from important security updates - 2 pts 
+OpenSSH has been updated - 2 pts 
+7zip has been updated - 4 pts 
+Removed plain text file containing passwords - 2 pts 
+Prohibited software wireshark removed - 2 pts 
+Stellarium has been installed - 5 pts 
+Prohibited software Freeciv removed - 5 pts
+Removed netcat backdoor - 5 pts 
+SSH root login has been disabled - 2 pts 
+Firefox displays warning on known malware sites - 5 pts 

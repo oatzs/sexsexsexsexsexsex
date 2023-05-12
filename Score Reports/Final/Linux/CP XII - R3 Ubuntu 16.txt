@@ -1,0 +1,43 @@
+Season XII Round 3 Ubuntu 16 (99/100 Points) (41/42 Vulns)
+-------------------------------------------------------
+Forensics Question 1 correct - 5 pts
+Forensics Question 2 correct - 5 pts
+Forensics Question 3 correct - 5 pts
+Forensics Question 4 correct - 5 pts
+Removed hidden user kpaulus - 1 pts
+User espence is not an administrator - 1 pts
+Changed insecure password for user jcousteau - 1 pts
+User pdiole has a maximum password age - 2 pts
+Disabled shell login for user syslog - 2 pts
+A default maximum password age is set - 2 pts
+Previous passwords are remembered - 2 pts
+Extra dictionary based password strength checks enabled - 2 pts
+An account lockout policy is configured - 2 pts
+Null passwords do not authenticate on insecure consoles - 2 pts
+IPv4 forwarding has been disabled - 2 pts
+Address space layout randomization enabled - 2 pts
+IPv4 TIME-WAIT assassination protection enabled - 2 pts
+IPv4 source route verification enabled - 2 pts
+Insecure sudo configuration fixed - 2 pts
+Firewall protection has been enabled - 2 pts
+OpenSSH service has been installed and started - 3 pts
+Nginx service has been disabled or removed - 2 pts
+Samba service has been disabled or removed - 2 pts
+WorldForge service has been disabled or removed - 2 pts
+Install updates from important security updates - 2 pts
+Linux kernel has been updated - 2 pts
+Bash has been updated - 2 pts
+BusyBox has been updated - 2 pts
+Pro FTP daemon has been updated - 2 pts
+Prohibited MP3 files are removed - 2 pts
+Removed file containing password hashes - 2 pts
+Prohibited software hunt removed - 2 pts
+Prohibited software dsniff removed - 2 pts
+Prohibited software Endless Sky removed - 2 pts
+Removed netcat backdoor - 3 pts
+Firefox malware protection enabled - 2 pts
+FTP anonymous access is disabled - 3 pts
+FTP server identity is off - 3 pts
+FTP Require TLS is enabled - 3 pts
+FTP service is not running as root - 3 pts
+SSH allows only public key authentication - 3 pts

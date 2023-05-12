@@ -1,0 +1,49 @@
+FORENSICS:
+    Q1 - 8
+    Q2 - 14,991,360
+    Q3 - 6399
+USER AUDITING:
+    unauthorized user raven is removed
+    unauthorized user bladestorm is removed
+    user kyle is not an admin
+    user calamity password expires
+    user izza has a password
+    changed insecure password "password" for user specter
+ACCOUNT POLICY:
+    A secure minimum password length is set(greater than 7)
+    A secure password history is set(greater than 2)
+LOCAL POLICY:
+    Audit Computer Account Management [success]
+    Everyone may not access this computer from the network
+    Prevent users from installing printer drivers - Enabled
+    Send unencrypted password to third party SMB servers - disabled
+    Microsoft network client: Digitally sign communications (always) - enabled
+DEFENSIVE COUNTERMEASURES:
+    Firewall protection has been enabled
+UNCATEGORIZED OPERATING SYSTEM SETTINGS:
+    Screensaver is secure and active
+    Do not execute any autorun commands - Enabled
+SERVICE AUDITING:
+    Simple TCP serivces is stopped and disabled
+    LPD service is stopped and disabled
+    UPnP Device Host is stopped and disabled
+OPERATING SYSTEM UPDATE:
+    Windows automatically checks for updates
+    The majority of Windows Updates are installed
+APPLICATION UPDATE:
+    Thunderbird
+    Java JRE 8
+    Gimp
+PROHIBITED FILE:
+    C:\Users\calamity\Downloads\brutus-aet2-darknet.zip - removed brutus passwordcracker archive
+UNWANTED SOFTWARE:
+    Chicken invaders
+    KNCTR
+    Beware IRC Server
+    Hashcat
+MALWARE:
+    Tini Backdoor
+APPLICATION SECURITY:
+    Internet explorer is installed 
+    Firefox warns when sites try to install add-ons
+    Firewall blocks dangerous downloads

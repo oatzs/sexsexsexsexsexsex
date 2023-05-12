@@ -1,0 +1,79 @@
+Forensics Question 1 correct - 6 pts
+Forensics Question 2 correct - 6 pts
+Forensics Question 3 correct - 6 pts
+Removed unauthorized user vex - 4 pts
+Removed unauthorized user brynjolf - 2 pts
+Changed insecure password for delphine - 2 pts
+User borri password expires - 2 pts
+User einarth password expires - 2 pts
+Passwords are not stored using reversible encryption - 2 pts
+A secure maximum password age exists - 2 pts
+Audit User Account Management [Success] - 2 pts
+Audit System Integrity [Failure] - 2 pts
+User irileth may not manage auditing and security log - 3 pts
+Early Launch Antimalware does not initialize known non-critical bad drivers - 2 pts
+Firewall protection has been enabled - 2 pts
+Validate heap integrity setting enabled - 2 pts
+AutoPlay has been disabled [all users] - 2 pts
+Everyone may not write to the Skynet IIS directory - 2pts
+Remote Registry service has been stopped and disabled - 2 pts
+Xbox Live Game Save service has been stopped and disabled - 2 pts
+Majority of Windows updates are installed - 2 pts
+Couldn’t restart for updates
+Firefox has been updated - 1 pts
+Removed phpinfo file - 3 pts
+Removed Etherium cryptominer Geth -1 pts
+Removed MySQL-G0ld - 2 pts
+Removed SDR tools - 2 pts
+Removed PHP backdoor - 3 pts
+Removed WindowsRAT - 3 pts
+PHP expose header configuration set to disabled - 2 pts
+PHP display errors has been disabled - 3 pts
+IIS HTTP error responses for remote requests not set to Detailed - 3 pts
+IIS server information is not included in response header - 2 pts
+IIS web server requires SSL connections - 3 pts
+Windows Server 2019
+Forensics Question 1 correct - 5 pts
+Forensics Question 2 correct - 5 pts
+OS Forensics
+Forensics Question 3 correct - 5 pts
+Forensics Question 4 correct - 5 pts
+Removed unauthorized user tolfdir - 1 pts
+User wulfgar is not an Enterprise Admin - 1 pts
+Farengar is not disabled - 1 pts
+Changed insecure password for balgruuf - 1 pts
+User ralof password expires - 1 pts
+Domain Users removed from DnsAdmins group - 2 pts
+A secure lockout threshold exists - 2 pts
+Audit Credential Validation [Success] - 1 pts
+Audit Kerberos Authentication [Success] - 1 pts
+Everyone may not enable computer and user accounts to be trusted for delegation - 2 pts
+LDAP server signing requirements [Require signing] - 3 pts
+Recovery console: Allow automatic administrative logon [disabled] - 2 pts
+Configure encryption types allowed for Kerberos [AES Only] - 3 pts
+Switch to the secure desktop when prompting for elevation [enabled] - 2 pts
+Autoplay has been disabled [all users] - 2 pts
+Everyone is no longer allowed full share permissions to SYSVOL - 3 pts
+NTDS dump share is disabled - 2 pts
+Domain Users are no longer allowed access to NTDS - 3 pts
+Windows automatically checks for updates - 2 pts
+Firefox has been updated - 2 pts
+Removed NTDS dump - 3 pts
+Removed prohibited music files - 2 pts
+Removed Teamspeak - 2 pts
+Removed mimikatz script file - 2 pts
+Reverse TCP DLL Removed from DNS Server - 3 pts
+sc.exe stop dns (Stop DNS service)
+Remove-Item C:\Windows\System32\DNS\ipv6_dnsapi.dll -Force
+Delete ServerLevelPluginDll registry entry in “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DNS\Parameters”
+sc.exe start dns (Start DNS service)
+Removed NTDS dump script file - 3 pts
+Removed Backdoor - 3 pts
+Audit DNS events - 3 pts
+Set-DnsServerDiagnostics -EventLogLevel 3
+DNS Service restarts after failure - 3 pts
+sc.exe failure DNS reset= 10 actions= restart/10000/restart/10000/restart/10000
+Dynamic updates to the DNS server are disabled - 3 pts
+SIGRed workaround implemented - 3 pts
+SMB 1.0 removed or disabled - 3 pts
+Firefox blocks dangerous downloads - 2 pts

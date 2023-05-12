@@ -1,0 +1,42 @@
+2019-2020 Semifinals Round
+DEBIAN 8 
+Forensic 1: f2e186fa-862a-423b-8faa-a4a840ac5602
+Forensic 2: Catch me if you can!
+Forensic 3: index.php
+User Auditing Check Passed - script (change /bin/sh to /bin/false for user bin) 
+User Auditing Check passes - script (Removed unauthorised user Hzolomon)
+User Auditing Check passes - script (Savitar is not an administrator)
+User Auditing Check passes - script (User jgarrick has a secure password)
+User Auditing Check passes - script (password is set for root user)
+Account Policy Check Passed - script
+Account Policy Check Passed - script
+Account Policy Check Passed - script
+Account Policy Check Passed - script
+Account Policy Check Passed - script
+Local Policy Check Passed - script
+Local Policy Check Passed - script
+Local Policy Check Passed - script
+Local Policy Check Passed - script
+Local Policy Check Passed - Synack Retries 1-4 (script)
+Service Auditing - script (Bind9)
+Service Auditing - script (Nginx)
+Service Auditing - script (MySQL)
+Defensive countermeasure - script (UFW Enabled)
+Uncategorized Operating System Setting - script
+Operating System Update Check Passed - uncommenting /etc/apt/sources.list
+Operating System Update Check Passed - script
+Operating System Update Check Passed - script
+Application Update check passed - script
+Application Update check passed - script
+Malware check passed - remove index.php - REMOVE BACK END /bin/ls
+Unwanted Software - script (ophcrack)
+Unwanted Software - script (ettercap)
+Unwanted Software - script (Wireshark)
+Unwanted Software - script (chntpw)
+Prohibited File - Plain Text File “users” in /root/Desktop
+Application Security Check Passed - php modifications (expose_php set to off)
+Application Security Check Passed - php modifications
+Application Security Check Passed - Apache modifications
+Application Security Check Passed - SSH Port change
+Application Security Check Passed - script (SSH root maybe?)
+Application Security Check Passed - script (Firefox maybe?)

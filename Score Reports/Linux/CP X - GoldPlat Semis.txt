@@ -1,0 +1,42 @@
+Season X - Gold/Platinum Semis (76/100 Points) (40/52 Vulns) 
+--------------------------------------------------------------------------------
+Forensics Question 1 - 4 pts
+Forensics Question 2 - 4 pts
+Forensics Question 3 - 4 pts
+Forensics Question 4 - 4 pts
+Unauthorized user odestruct - 1 pts
+Unauthorized user strange - 1 pts
+User qwark is not an administrator - 1 pts
+Changed insecure password for user orvus - 1 pts
+User grazz can not login without a password - 1 pts
+Root password is no longer blank - 1 pts
+Password for clank is hashed with a secure algorithm - 1 pts
+Extra dictionary based password strength checks - 2 pts
+A secure password hashing algorithm is used - 2 pts
+Null passwords do not authenticate - 2 pts
+An account lockout policy is configured - 2 pts
+A default maximum password age is set - 2 pts
+Insecure sudo configuration fixed - 2 pts
+IPv4 forwarding has been disabled - 2 pts
+Restrict unprivileged access to kernel syslog - 2 pts
+Firewall protection has been enabled - 2 pts
+GRUB configuration is not world readable - 2 pts
+Resolver checks for IP spoofing - 2 pts
+SNMP service has been disabled/removed - 2 pts
+Samba service has been disabled/removed - 2 pts
+Rsync service has been disabled/removed  2 pts
+Automatic daily updates - 1 pts
+Glibc has been updated - 1 pts
+Apache has been updated - 1 pts
+PHP has been updated - 1 pts
+Removed plaintext file containing passwords - 2 pts
+Removed phpinfo() php file - 2 pts
+SSH root login has been disabled - 1 pts
+SSH user environment processing is disabled - 2 pts
+Firefox displays warnings on known malware sites - 2 pts
+Prohibited software ‘knocker’ removed - 2 pts
+MySQL remote access is disabled - 2 pts
+PHP expose is Off - 2 pts
+PHP system function is disabled - 2 pts
+Apache server signature is disabled - 2 pts
+Apache trace requests disabled - 2 pts

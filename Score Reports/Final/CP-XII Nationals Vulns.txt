@@ -1,0 +1,244 @@
+﻿NSMC Scoring Reports:
+* Ubuntu 16 (29/60)
+   * Guest account is disabled
+   * Removed unauthorized user mgideon
+   * Removed unauthorized user tcalican
+   * Removed unauthorized user meisbeth
+   * Removed hidden user burg
+   * Removed hidden user lang
+   * User kreeves is not an administrator
+   * User omera is not an administrator
+   * Disabled password login for user bin
+   * User pmotto has a minimum password age
+   * A default maximum password age is set
+   * Null passwords do not authenticate on insecure consoles
+   * An account lockout policy is configured
+   * Greeter does not enumerate user accounts
+   * Ignore broadcast ICMP echo requests enabled
+   * IPv4 source route verification enabled
+   * IPv4 accept ICMP redirects disabled
+   * Address space layout randomization enabled
+   * Kernel pointers hidden from unprivileged users
+   * GRUB configuration is not world readable
+   * Resolver checks for IP spoofing
+   * DNS service is disabled or removed
+   * FTP service has been disabled or removed
+   * MariaDB service has been disabled or removed
+   * Squid proxy service has been disabled or removed
+   * POPS service has been disabled or removed
+   * SMTP service has been disabled or removed
+   * Prohibited software john the ripper removed
+   * Prohibited software Doomsday removed 
+* Ubuntu 18 (37/58)
+   * Guest account is disabled
+   * Removed unauthorized user bfett
+   * Removed unauthorized user rmalk
+   * Removed unauthorized user bfortuna
+   * Removed hidden user rmar
+   * User bkryze is not an administrator
+   * User winta is not an administrator
+   * User grogu has a maximum password age
+   * Extra non-dictionary password strength checks enabled
+   * A secure password hashing algorithm is used
+   * A default minimum password age is set
+   * X Server does not allow TCP connections
+   * IPv4 forwarding has been disabled
+   * IPv4 sending ICMP redirects disabled
+   * IPv4 TIME-WAIT assassination protection enabled
+   * Sudo requires authentication
+   * Firewall protection has been enabled
+   * MySQL has been disabled or removed
+   * VNC service has been disabled or removed
+   * SNMP service has been disabled or removed
+   * OpenArena service has been disabled or removed
+   * The system automatically checks for updates daily
+   * Vsftpd has been updated
+   * GIMP has been updated
+   * Tilda has been updated
+   * Prohibited MP3 files are removed
+   * Prohibited software pnscan removed
+   * Prohibited software reaver removed
+   * Prohibited software yersinia removed
+   * Prohibited software kismet removed
+   * Prohibited software Minetest removed
+   * Removed netcat backdoor
+   * Firefox displays warning on known malware sites
+   * FTP anonymous write commands are disabled
+   * FTP anonymous user is not root
+   * SSH protocol 1 has been disabled
+   * SSH user environment processing is disabled
+* Debian 9 (39/59)
+   * Removed unauthorized user pershing
+   * Removed unauthorized user fshand
+   * Removed unauthorized user gkoresh
+   * Removed hidden user xian
+   * Removed hidden user qin
+   * User igll is not an administrator
+   * User pvizsla is not an administrator
+   * Root password is no longer blank
+   * Password for gkarga is hashed with a secure algorithm
+   * Previous passwords are remembered
+   * A minimum password length is required
+   * Extra dictionary based password strength checks enabled
+   * Null passwords do not authenticate
+   * IPv4 TCP SYN cookies have been enabled
+   * Ignore bogus ICMP errors enabled
+   * IPv4 accept source routing disabled
+   * IPv4 TCP SYN,ACK retries reduced
+   * Logging of martian packets enabled
+   * Insecure sudo configuration fixed
+   * Insecure permissions on shadow file fixed
+   * IRC daemon has been disabled or removed
+   * NFS has been stopped and disabled
+   * Rsync service has been disabled or removed
+   * Minetest service has been disabled or removed
+   * Install updates from important security updates
+   * OpenSSL shared libraries have been updated
+   * Exim has been updated
+   * Prohibited software ophcrack removed
+   * Prohibited software OpenRa removed
+   * Removed python backdoor
+   * Removed netcat backdoor
+   * SSH root login has been disabled
+   * SSH does not permit empty passwords
+   * PHP expose is off
+   * PHP strict session mode enabled
+   * PHP does not display startup errors
+   * Apache server signature disabled
+   * Apache etags disabled
+   * Apache trace requests disabled 
+* Windows 10 LTSC (36/54)
+   * Forensics Question 1 correct
+   * Forensics Question 3 correct
+   * Removed unauthorized user tcalica
+   * Removed unauthorized user rmalk
+   * Removed unauthorized user qin
+   * Removed unauthorized user gkoresh
+   * A sufficient password history is being kept
+   * A secure minimum password length is required
+   * A secure account lockout duration exists
+   * Audit Credential Validation [Success]
+   * Audit User Account Management [Failure]
+   * Audit Authentication Policy Change [Success]
+   * Audit System Integrity [Success]
+   * Users may not access Credential Manager as a trusted caller
+   * User wing may not adjust memory quotas for a process
+   * Users may not load and unload device drivers
+   * Limit local use of blank passwords to console only [enabled]
+   * Require strong (Windows 2000 or later) session key [enabled]
+   * Digitally encrypt or sign secure channel data (always) [enabled]
+   * Send unencrypted password to third-party SMB servers [disabled]
+   * Admin Approval Mode for the Built-in Administrator account [enabled]
+   * Firewall protection has been enabled
+   * Screen saver is password protected
+   * Firefox automatically checks for and installs updates
+   * Thunderbird has been updated
+   * GIMP has been updated
+   * Removed prohibited MP3 files
+   * Removed KNCTR Itibiti Soft Phone
+   * Removed Home Web Server
+   * Removed Serviio media server
+   * Removed Vistumbler
+   * Removed Actual Keylogger
+   * Removed StickyKeys backdoor
+   * Windows SmartScreen configured to warn or block
+   * Firefox pop-up blocker enabled
+   * Firefox warns when sites try to install add-ons 
+* Windows Server 2012r2 (17/57)
+   * Forensics Question 1 correct
+   * A secure minimum password length is required
+   * A secure maximum password age exists
+   * A secure lockout threshold exists
+   * Recovery Console: Allow automatic administrative logon [disabled]
+   * Microsoft Network Server: Digitally sign communications (always) [enabled]
+   * Do not allow anonymous enumeration of SAM accounts and shares [enabled]
+   * Restrict anonymous access to Named Pipes and Shares [enabled]
+   * Allow LocalSystem NULL session fallback [Disabled]
+   * Switch to the secure desktop when prompting for elevation [enabled]
+   * File sharing disabled for hidden share ADM$
+   * SNMP Trap service has been stopped and disabled
+   * Net.Tcp Port Sharing service has been stopped and disabled
+   * Removed Tetris
+   * Removed Driver Booster
+   * Removed netcat backdoor
+   * Firefox displays warning on known malware sites
+* Windows Server 2016 (37/60)
+   * Forensics Question 1 correct
+   * Forensics Question 2 correct
+   * Removed unauthorized user pershing
+   * Removed unauthorized user mgideon
+   * Removed unauthorized user bfett
+   * Removed unauthorized user fshand
+   * User cvanth is not an administrator
+   * User caben is not an administrator
+   * User jdodger is not an administrator
+   * User mmayfeld has a password
+   * Changed insecure password for kuiil
+   * User cdune password expires
+   * A secure minimum password age exists
+   * A sufficient password history is being kept
+   * A secure lockout threshold exists
+   * Audit Logon [Failure]
+   * Audit Security Group Management [Success]
+   * Audit User Account Management [Success]
+   * User davan may not manage auditing and security log
+   * Everyone may not enable computer and user accounts to be trusted for delegation
+   * Do not require CTRL+ALT+DEL [disabled]
+   * Do not allow anonymous enumeration of SAM accounts [enabled]
+   * Let Everyone permissions apply to anonymous users [disabled]
+   * LAN Manager authentication level (Send NTLMv2 response only Refuse LM & NTLM)
+   * Do not store LAN Manager hash value on next password change (enabled)
+   * Run all administrators in Admin Approval Mode [enabled]
+   * AutoRun Commands have been disabled [all users]
+   * Screen saver is password protected [all users]
+   * Event log service is running
+   * Xbox Live Auth Manager has been stopped and disabled
+   * Adobe Reader DC has been updated
+   * Removed iTunes
+   * Removed TightVNC Server
+   * Removed Custom backdoor
+   * Internet Zone: Download of unsigned ActiveX controls from Internet sites [disabled]
+   * Internet Zone: Launching programs and files in an IFRAME [Prompt or Disabled] [all users]
+   * Firefox blocks dangerous downloads 
+* Windows Server 2019 (41/61)
+   * A secure maximum password age exists
+   * A secure minimum password age exists
+   * A secure account lockout observation window exists
+   * Audit Other Account Management Events [Failure]
+   * Audit Logoff [Success]
+   * Audit Audit Policy Change [Success]
+   * Audit Security System Extension [Success]
+   * Audit Credential Validation [Failure]
+   * Everyone may not access this computer from the network
+   * Users may not modify firmware environment values
+   * User twolf may not create global objects
+   * Prevent users from installing printer drivers [enabled]
+   * Restrict CD-ROM access to locally logged-on user only [enabled]
+   * Do not display last user name [enabled] 
+   * Microsoft network client: Digitally sign communications (always) [enabled]
+   * Allow system to be shut down without having to log on [disabled]
+   * Allow UlAccess applications to prompt for elevation without using the secure desktop [disabled]
+   * Behavior of the elevation prompt for administrators in Admin Approval Mode configured to prompt
+   * File sharing disabled for C drive
+   * AutoPlay has been disabled [all users]
+   * DNS Server service has been stopped and disabled
+   * SNMP service has been stopped and disabled
+   * Microsoft ISNS service has been stopped and disabled
+   * RPC Locator service has been stopped and disabled
+   * Microsoft FTP service has stopped and disabled
+   * MultiPoint Service has been stopped and disabled
+   * Adobe Reader DC has been updated
+   * Java JRE 8 has been updated
+   * FileZilla Client has been updated
+   * Removed prohibited OGG files
+   * Removed Brutus Password Cracker Archive
+   * Removed Plex Media Server
+   * Removed AnyDesk
+   * Removed CleanMyPC
+   * Removed Nmap
+   * Removed Tini backdoor
+   * Removed WindowsRAT
+   * Removed PHP backdoor
+   * Firefox warns when sites try to install add-ons
+   * IIS default web site directory browsing disabled
+   * IIS detailed errors disabled

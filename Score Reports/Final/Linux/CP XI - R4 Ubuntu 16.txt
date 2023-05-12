@@ -1,0 +1,42 @@
+Application security:
+        SSH - PermitUserEnvironment No sshd_config
+        SSH - Not Protocol 1 in sshd_config
+        Firefox - Block dangerous and deceptive content
+User Management:
+        Remove user raven
+        Remove user dusk
+        Wildcat should not be admin
+        Calamity must login with a password
+Account Policy:
+        PASS_MAX_DAYS corrected in login.defs
+        Previous passwords are remembered
+        Extra dictionary password strength checks are enabled
+        Account Lockout policy is configured
+Malware:
+        /usr/lib/gvfs/gvfs-trash removed
+Software:
+        Minetest removed
+        NBTscan removed
+Prohibited files:
+        Prohibited mp3 files
+Application update:
+        Sshd
+        Firefox
+Operating system update:
+        bash
+        Kernel
+        Daily updates
+Services:
+        Postfix - removed
+        Minetest - removed
+Uncategorized operating system updates:
+/etc/shadow not world readable
+Local Policies:
+        Dmesg restrict set to 1
+        Ipv4_forward contains 0(disable ipv4 forwarding)
+        Sysrq is set to 0(disable sysrq)
+        Xserver-allow-tcp disabled
+Forensics:
+        1- 22,631,17071,17072,1707,30000
+        2- Frosty Flights
+        3- 38f3b03e-4415-43d2-bc22-1e1b12941c27

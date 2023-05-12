@@ -1,0 +1,35 @@
+2020-2021 Round 2 (Ubuntu 16)
+
+Vulns Listed - 31/31 - 100/100
+
+Forensics Question 1 Correct - 7
+Forensics Question 2 Correct - 7
+Forensics Question 3 Correct - 7
+Removed unauthorized user sephiroth - 3
+Removed terminated employee’s user accoutn ‘dyne’ - 4
+User zfair is not an administrator - 2
+Changed insecure password for user againsborough - 2
+Changed insecure password for user bwallace - 2
+A default maximum password age is set - 3
+A minimum password length is required - 4
+Stack and heap address space layout randomization enabled - 3
+IPV4 Forwarding has been disabled - 3
+Sudo requires authentication - 3
+Group Shinra does not have sudo privileges - 3
+Uncomplicated Firewall (UFW) has been enabled - 3
+Inline scripts are not allowed by nginx content security policy - 3
+Nginx set to block XSS attacks for legacy browsers - 3
+Nginx server tokens disabled - 3
+SNMP service has been disabled or removed - 3
+The system automatically checks for updates daily - 2
+Install updates from important security updates - 2
+Nginx has been updated - 2
+OpenSSH has been updated - 2
+Prohibited plaintext credit card information was removed - 3
+Prohibited software Hydra removed - 3
+Prohibited software yersinia removed - 3
+Prohibited software deluge removed - 3
+Removed perl bindshell backdoor - 4
+Firefox warns when sites try to install add-ons - 2
+SSH does not permit empty passwords - 3
+SSH Protocol 1 has been disabled - 3

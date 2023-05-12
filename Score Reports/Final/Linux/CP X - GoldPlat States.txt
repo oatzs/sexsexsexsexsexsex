@@ -1,0 +1,44 @@
+Season X - Gold States (97/100 Points) (42/44 Vulns) 
+--------------------------------------------------------------------------------
+Forensics Question 1 correct - 5 pts
+Forensics Question 2 correct - 5 pts
+Forensics Question 3 correct - 5 pts
+Forensics Question 4 correct - 5 pts
+Removed unauthorized user bwayne - 1 pts
+Removed unauthorized user brainiac - 1 pts
+Removed unauthorized user lluthor - 1 pts
+User wwest is not an administrator - 1 pts
+User savitar is not an administrator - 1 pts
+Changed insecure password for user jwells - 1 pts
+Previous passwords are remembered - 3 pts
+Null passwords do not authenticate on insecure consoles - 3 pts
+A default minimum password age is set - 2 pts
+Ignore broadcast ICMP echo requests enabled - 2 pts
+IPv4 TCP SYN,ACK retires reduced - 2 pts
+Sudo requires authentication - 2 pts
+Uncomplicated Firewall (UFW) protection has been enabled - 3 pts
+Insecure permissions on shadow file fixed -2 pts
+OpenSSH service has been installed and started - 3 pts
+IRC daemon has been stopped and disabled - 2 pts 
+DNS service is disabled or removed - 2 pts
+OpenArena service has been disabled or removed - 2 pts
+Remote Desktop Sharing has been disabled - 2 pts
+The system automatically checks for updates daily - 2 pts
+Linux kernel has been updated - 2 pts
+Bash has been updated - 2 pts
+Firefox has been updated - 2 pts
+OpenSSH has been updated - 2 pts
+Samba has been updated - 2 pts
+Prohibited MP3 files are removed - 2 pts
+Prohibited software ophcrack removed - 2 pts
+Prohibited software medusa removed - 2 pts
+Prohibited software Minetest removed - 2 pts
+Removed netcat backdoor - 3 pts
+SSH listens on port 222 - 3 pts
+SSH allows only public key authentication - 3 pts
+SSH does not permit empty passwords - 2 pts
+SSH root login has been disabled - 2 pts
+Anonymous Samba access is disabled - 2 pts
+Unauthorized Samba share is disabled - 2 pts
+Samba blank passwords are disabled - 2 pts
+Samba SMB1 protocol is disabled - 2 pts 

@@ -1,0 +1,53 @@
+FORENSICS:
+    Q1 - Powell’s Artifacts
+    Q2 - Lost City of Light
+    Q3 - The clock is the key
+    Q4 - some SID not gonna put it here
+USER AUDITING:
+    Created Group tomb
+    added nadia and samantha to group tomb
+    removed user pedro
+    guest is disabled
+    sofia is not an admin
+    nadia is not an admin
+    unuratu’s password “captain” is changed
+    ivan has a password
+ACCOUNT POLICY:
+    A max password age is set
+    Lockout duration exists
+LOCAL POLICY:
+    Other account management events Failure - enabled
+    Digitally sign communications (always) - enabled
+    Restrict anonymous access to Named Pipes and Shares - enabled
+    Recovery Console: Allow automatic administrative logon - disabled
+    Allow system to be shut down without having to log on - disabled
+    Admin Approval Mode for the built-in Administrator account - enabled
+DEFENSIVE COUNTERMEASURES:
+    Firewall is enabled
+    Enable Bitlocker without TPM enabled
+UNCATEGORIZED OPERATING SYSTEM SETTINGS:
+    Configure Solicited Remote Assistance - Disabled
+    Enumerate administrator accounts on elevation - disabled
+SERVICE AUDITING:
+    Telnet - stopped and disabled
+    Remote Access Connection Manager - Stopped and disabled
+OPERATING SYSTEM UPDATE:
+    majority of operating system updates are installed
+    windows auto updates enabled
+APPLICATION UPDATE:
+    acrobat reader
+    firefox
+    libreoffice
+PROHIBITED FILES:
+    MP3 files in C:\Users\croft\ removed
+UNWANTED SOFTWARE:
+    nmap
+    utorrent
+    home web server
+    superscan
+MALWARE:
+    C:\Windows\win.exe - netcat backdoor removed
+APPLICATION SECURITY:
+    Internet explorer smartscreen enabled
+    firefox popup blocked enabled
+    SMB v1 disabled

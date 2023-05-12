@@ -1,0 +1,30 @@
+Season XI States (76/100 points) (28/36)
+-------------------------------------------------------
+Forensics Qustion 1 correct - 6 pts
+Forensics Qustion 2 correct - 6 pts
+Forensics Qustion 3 correct - 6 pts
+Guest account is disabled - 1 pts 
+Removed unauthorized user raven - 1 pts
+Removed hidden user toor - 2 pts 
+User wildcat is not an administrator - 1 pts 
+User izza can not login without a password - 2 pts 
+A default minimum password age is set - 2 pts
+Previous passwords are remembered - 3 pts 
+Extra non-dictionary password strength checks enabled - 3 pts 
+An account lockout policy is set - 3 pts 
+Greeter does not enumerate user accounts - 3 pts 
+IPv4 sending ICMP redirects disabled - 3 pts
+Restrict unprivileged access to kernel syslog enabled - 3 pts 
+Address space layout randomization enabled - 2 pts 
+Insecure sudo configuration fixed - 3 pts 
+Minetest service has been disabled or removed - 2 pts 
+The system automatically checks for updates daily - 2 pts 
+Linux kernel has been updated - 2 pts 
+Glibc has been updated - 2 pts 
+Samba has been updated - 2 pts 
+Prohibited MP3 files are removed - 2 pts 
+Removed plain text file containing passwords - 2 pts 
+Prohibited software Minetest removed - 2 pts 
+Removed python backdoor - 4 pts 
+Firefox warns when sites try to install add-ons - 3 pts
+SSH does not permit empty passwords - 3 pts 

@@ -1,0 +1,20 @@
+Season XII Round 1 (100/100 Points) (18/18 Vulns)
+--------------------------------------------------------------------------------------
+Forensics Question 1 correct - 8 pts
+Removed unauthorized user pivy - 5 pts
+Removed unauthorized user hquinn -  5 pts
+Uesr dwayne is not an administrator - 5 pts
+User harold has a password - 5 pts
+Changed insecure password for jgordon - 5 pts
+User skyle password expires - 5 pts
+A secure minimum password length is required - 5 pts 
+A sufficient password history is being kept - 5 pts 
+File sharing disabled for C drive - 6 pts 
+World Wide Web Publishing service has been stopped and disabled - 6 pts
+The majority of Windows updates are installed - 5 pts 
+Removed Brutus password cracker archive - 5 pts 
+Removed iTunes - 6 pts 
+Removed Beware IRC server - 6 pts
+Removed Teamviewer - 6 pts 
+Removed uTorrent - 6 pts 
+Removed ophcrack - 6 pts

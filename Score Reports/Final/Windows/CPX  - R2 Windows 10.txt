@@ -1,0 +1,30 @@
+Season X Round 2 (65/100 Points) (24/32 Vulns)
+--------------------------------------------------------------------------------------
+Forensic Question 1 correct - 6pts
+Removed unauthorized user sulu - 2pts
+Removed unauthorized user uhura - 2 pts
+User Plumber is not an administrator - 2pts
+User aazimuth is not an administrator - 2pts
+User tapogee has a password - 2pts
+Changed insecure password for bigal - 2pts
+A sufficient password history is being kepts - 3pts
+Account logon failures are logged - 3pts
+Limit local use of blank passwords to console only [enabled] - 3pts
+Restrict CD-ROM access to locally logged-on user only [enabled] - 3pts
+Firewall protection has been enabled - 2pts
+File sharing disabled for C drive - 4 pts
+FTP service has stopped and been disabled - 4 pts
+The majority of Windows updates are installed - 3pts
+Firefox has been updated - 3pts
+Foxit Reader has been updated - 3 pts
+Removed prohibited MP3 files - 3pts 
+Microsoft Baseline Security Analyzer 2 has been installed - 3 pts
+Removed DriverUpdate - 2pts
+Removed Rainbowcrack - 2pts
+Removed Nmap software - 2pts
+Removed Home Web Server - 2 pts
+RDP Network level authentication enabled - 3 pts
+
+
+
+

@@ -1,0 +1,24 @@
+Season X Round 1 Ubuntu 14 (100/100 Points) (22/22 Vulns)
+-------------------------------------------------------
+Forensics Question 1 correct - 8 pts
+Forensics Question 2 correct - 8 pts
+Created user account zachary - 4 pts
+Guest account is disabled - 4 pts 
+Removed unauthorized user vladimir - 4 pts 
+Removed unauthorized user pedro - 4 pts
+User samantha is not an administrator - 4 pts 
+User ivan is not an administrator - 4 pts 
+Changed insecure password for user conrad - 4 pts 
+A default maximum password age is set - 3 pts 
+Firewall protection has been enabled - 5 pts 
+Apache2 service has been disabled or removed - 4 pts 
+The system automatically checks for updates daily - 4  pts
+Bash has been updated - 4 pts 
+Firefox has been updated - 4 pts 
+LibreOffice has been updated - 4 pts
+OpenSSH has been updated - 4 pts 
+Prohibited MP3 files are removed - 5 pts
+Prohibited software Kismet removed - 5 pts
+Prohibited software ophcrack removed - 5 pts
+Prohibited software Freeciv removed - 5 pts
+SSH root login has been disabled - 4 pts

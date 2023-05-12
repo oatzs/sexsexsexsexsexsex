@@ -1,0 +1,52 @@
+FORENSICS:
+    Q1 - 56540 (Stored in REG key)
+    Q2 - Desktop-EUMS2SD (just search logs lolz)
+    Q3 - 10.19.64.108
+    Q4 - hive, RAS and IAS Servers, Domain Computers
+USER AUDITING:
+    Removed unauthorized user trigon
+    Changed user aqualad’s password “password”
+    User superboy is not an admin
+    User bboy is not an admin
+    User menos password expires
+ACCOUNT POLICY:
+    A secure minimum password age is set
+    A secure lockout observation window exists
+LOCAL POLICY:
+    Audit Security Group management - Enabled
+    Everyone may not Enable delegation privilege
+    Authenticated Users may not remotely shutdown the system
+    Clear page file at shutdown enabled
+    Only elevate UIAccess applications that are installed in secure locations - Enabled
+    LAN Manager authentication level - Send NTLMv2 response only. Refuse LM & NTLM
+    LDAP server signing requirements - require signing
+UNCATEGORIZED OPERATING SYSTEM SETTINGS:
+    Autoplay disabled for all drives
+    Data Execution Prevention enabled
+SERVICE AUDITING:
+    SSDP Discovery is stopped and disabled
+    Xbox live Game Save is stopped and disabled
+OPERATING SYSTEM UPDATE:
+    AllowMUUpdateService - Enabled
+    Majority of operating system updates are installed
+APPLICATION UPDATE:
+    VLC
+    Filezilla
+    TortoiseHG
+PROHIBITED FILES:
+    C:\Windows\Sysnative\mimikatz_trunk.7z - removed
+UNWANTED SOFTWARE:
+    Http explorer removed
+    Open TFTP server removed
+    ophcrack removed
+MALWARE:
+    C:\Windows\System\SAM.exe - NTBIND removed
+    C:\:System.exe - NTBS removed
+APPLICATION SECURITY:
+    Internet explorer phishing filter enabled
+    Firefox blocks dangerous downloads
+    Require secure RPC communication - Enabled
+    RDP TLS Communication enabled
+    Do not allow supported Plug and Play device redirection - Enabled
+    DNS zone transfers to any server is disabled
+    Dynamic updated to the DNS server are disabled

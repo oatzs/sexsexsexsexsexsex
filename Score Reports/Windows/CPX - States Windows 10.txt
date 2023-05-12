@@ -1,0 +1,31 @@
+Season X States (69/100 Points) (29/44Vulns)
+--------------------------------------------------------------------------
+Forensics Question 1 correct - 5 pts
+Forensics Question 2 correct - 5 pts
+Forensics Question 3 correct - 5 pts
+Forensics Question 4 correct - 5 pts
+Removed unauthorized user mmurdoc - 1 pts
+Removed unauthorized user kpage - 1 pts
+User nallen is not an administrator - 1 pts
+User mstein is not an administrator - 1 pts
+user cramon has a password - 1 pts
+Changed insecure password for jwells - 1 pts
+A secure maximum password age exists - 2 pts
+Passwords must meet complexity requirements - 2 pts
+A secure account lockout duration exists - 2 pts 
+User wwest can no longer manage the auditing and security log - 2 pts 
+Audit User Account Management [Failure] - 2 pts
+Do not allow anonymous enumeration of SAM accounts and shared [enabled] - 2 pts
+Firewall protection has been enabled - 2 pts 
+Antivirus protection has been enabled - 2 pts
+BitLocker drive encryption service is running - 4 pts
+FIle sharing disabled for hidden share PF$ - 2 pts 
+Windows Update service is enabled - 2 pts 
+Simple TCP/IP Services have been stopped and disabled - 2 pts 
+Firefox has been updated - 2 pts
+jEdit has been updated - 2 pts 
+7-Zip has been updated - 2 pts 
+Removed Nmap - 2 pts 
+Removed BitTornado - 2 pts 
+Removed ntbindshell backdoor - 3 pts 
+Internet Explorer has been installed - 4 pts 

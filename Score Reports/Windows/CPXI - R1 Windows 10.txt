@@ -1,0 +1,23 @@
+Season XI Round 1 Windows 10 (100/100 Points) (22/22 Vulns)
+-------------------------------------------------------
+Forensic Question 1 correct - 8 pts
+Forensic Question 2 correct - 8 pts
+Created user account zachary - 4 pts
+Removed unauthorizeed user konstantin - 4 pts
+Removed unauthorized user mathals - 4 pts
+User alex is not an administrator - 4 pts
+User etzli is not an administrator - 4 pts 
+User unuratu has a password - 4 pts
+Changed insecure password for conrad - 4 pts
+A secure minimum password length is required - 5 pts 
+A secure lockout threshold exists - 5 pts 
+Do not require CTRL+ALT+DEL [disabled] - 4 pts
+Firewall protection has been enabled - 5 pts
+FTP service has stopped and disabled - 4 pts
+The majority of Windows updates are installed - 3 pts 
+Notepad++ has been updated -5 pts 
+Removed plain text file with passwords in it - 4 pts
+Removed iTunes - 4 pts
+Removed TeamViewer - 4 pts 
+Removed Driver Support - 4 pts 
+Removed Angry IP scanner - 4 pts

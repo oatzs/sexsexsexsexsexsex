@@ -1,0 +1,48 @@
+FORENSICS:
+    Q1 - 139, 445, 53, 5800
+    Q2 - 108
+    Q3 - 1125
+USER AUDITING:
+    Guest account is disabled
+    Removed unauthorised user raven
+    Removed hidden user toor
+    User wildcat is not an administrator
+    User izza can not login without a password
+    Banshee's password expires
+ACCOUNT POLICY:
+    A default minimum password age is set
+    Previous passwords are remembered
+    Extra non-dictionary password strength checks enabled
+    An account lockout policy is configured
+LOCAL POLICY:
+    Greeter does not enumerate user accounts
+    IPv4 sending ICMP redirects disabled
+    Restrict unprivileged access to kernel syslog enabled
+    Insecure sudo configuration fixed
+    ASLR is enabled
+UNCATEGORIZED OPERATING SYSTEM SETTINGS:
+    Stricter defaults have been enabled for shared memory
+SERVICE AUDITING:
+    Minetest service has been disabled or removed
+    SNMP service has been disabled or removed
+OPERATING SYSTEM UPDATE:
+    The system automatically checks for updates daily
+    Linux kernel has been updated
+    Glibc has been updated
+APPLICATION UPDATE:
+    Samba has been updated
+PROHIBITED FILE:
+    Prohibited MP3 files are removed
+    Removed plain text file containing passwords
+UNWANTED SOFTWARE:
+    Prohibited software Minetest removed
+    Prohibited software p0f is removed
+MALWARE:
+    Removed python backdoor
+APPLICATION SECURITY:
+    Firefox warns when sites try to install add-ons
+    Unauthorised Samba share is disabled
+    SMB share is not world writeable
+    Encrypt smb traffic is enabled
+    ntlm authentication is disabled
+    SSH does not permit empty passwords

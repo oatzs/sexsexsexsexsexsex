@@ -1,0 +1,23 @@
+Season XIV Round 1 Server 2019 (100/100 Points) (21/21 Vulns)
+-------------------------------------------------------
+Forensics Question 1 correct - 9 pts
+Forensics Question 2 correct - 9 pts
+Removed unauthorized user aschneider - 4 pts
+Removed unauthorized user rtaylor - 4 pts
+User jbosworth is not an administrator - 4 pts
+User yoyo is not an administrator - 4 pts
+User bodie has a password - 4 pts
+User trendon password expires - 4 pts
+A sufficient password history is being kept - 4 pts
+A secure maximum password age exists - 5 pts
+Do not display last signed in user [enabled] - 5 pts
+File sharing disabled for C drive - 5 pts
+Bluetooth Support Service is stopped or disabled - 5 pts
+The majority of Windows updates are installed - 4 pts
+Notepad++ has been updated - 4 pts
+Firefox automaticall installs updates - 4 pts
+Removed prohibited MP4 files - 5 pts
+Removed BZFlag - 4 pts
+Removed Deluge - 4 pts
+Removed Vega - 4 pts
+Removed Hashcat - 4 pts

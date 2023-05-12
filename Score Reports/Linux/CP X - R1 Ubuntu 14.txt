@@ -1,0 +1,23 @@
+Season X Round 1 (100/100 Points) (21/21 Vulns)
+-------------------------------------------------------
+Forensic Question 1 correct - 8pts
+Forensic Question 2 correct - 8pts
+Removed unauthorized user fawful - 4pts
+Removed unauthorized user petey - 4pts 
+Removed unauthorized user koji - 4pts
+User lemmy is not an administrator - 4pts 
+Changed user account pakkun - 4pts
+Changed insecure root password - 4pts
+Guest account is disabled - 4pts
+Firewall protection has been enabled - 5pts
+FTP Service has been disabled or removed - 4pts
+The system automatically checks for updates - 4pts
+Install updates from important security updates - 4pts
+The Linux Kernel has been updated - 5 pts
+OpenSSH has been updated - 4pts
+Firefox has been updated - 5pts
+LibreOffice has been updated - 5pts
+Prohibited MP3 files are removed - 4pts
+Prohibited software john the ripper removed - 6pts
+Prohibited software hydra-gtk removed - 5pts
+SSH root login has been disabled - 5pts

@@ -1,0 +1,54 @@
+FORENSICS:
+    F1- Flash Missing,? Wanishes in Crisis
+    F2- savitar, ethawne, iwest
+    F3- C2P!ctureN#ws
+USER AUDITING:
+    man- Does not have a login shell
+    root- has a password
+    iwest- pass encrypted with a secure hash
+    hwells- pass expires i think?
+    mrory- not in sudo
+    debian user is removed
+ACCOUNT POLICY:
+    password complexity
+    Secure hashing algerithm
+    nullok password do not authenticate
+LOCAL POLICY:
+    /proc/sys/net/ipv4/tcp_synack_retries - contains value 1-4
+    /proc/sys/net/ipv4/tcp_rfc1337 - contains 1
+    /proc/sys/kernel/unprivileged_userns_clone - contains 0
+    /etc/sudoers.d/README - Does not have Default !authenticate
+    Resolver checks for IP Spoofing
+UNCATEGORIZED OPERATING SYSTEM SETTINGS:
+    /boot/grub/grub.cfg - contains set superusers= and password_pbkdf2 grub
+    /boot/grub/grub.cfg - not world readable
+    /proc/mounts - contains tmpfs or none with noexec & nosuid
+    /etc/host.conf - contains nospoof on
+SERVICE AUDITING:
+    bind9 service is stopped and removed
+    nfs services is stopped and removed
+    dns service is stopped and removed 
+OPERATING SYSTEM UPDATE:
+    sources.list has valid debian lists
+    kernel is updated
+APPLICATION UPDATE:
+    Apache2 is updated
+    PHP5 is updated
+    Wordpress is updated
+PROHIBITED FILES:
+    /usr/share/wordpress/info.php is removed
+UNWANTED SOFTWARE:
+    Tcpspray
+    dsniff
+MALWARE:
+    Perl and LPD are removed
+    php backdoor /usr/share/wordpress/wp-admin/webroot.php is removed
+    /sbin/sforce SUID backdoor removed
+APPLICATION SECURITY:
+    SQL bind address to localhost & skipnetworking
+    SQL is not ran as root
+    Expose php is off
+    php allow url fopen is off
+    php session.use strict mode is on
+    Apache serverSignature is off
+    Apache fileEtags none

@@ -1,0 +1,19 @@
+Season XII Round 1 (/100 Points) (/30 Vulns)
+--------------------------------------------------------------------------------------
+Forensics Question 1correct - 8 pts
+Removed unauthorized user joker - 5 pts 
+Removed unauthorized user rghul - 5 pts 
+User ace is not an administrator - 5 pts 
+Changed insecure password for apennyworth - 5 pts 
+Changed insecure password for tdrake - 5 pts 
+A secure maximum password age exists - 5 pts 
+A secure lockout threshold exists - 5 pts
+Firewall protection has been enabled - 5 pts 
+Remote desktop sharing is turned off - 5 pts 
+FTP service has stopped and disabled - 6 pts 
+The majority of Windows updates are installed - 6 pts 
+Firefox has been updated - 6 pts 
+Removed prohibited MP3 files - 6 pts 
+Removed Driver Support - 6 pts 
+Removed Wireshark - 6 pts 
+Removed Angry IP Scanner - 6 pts 

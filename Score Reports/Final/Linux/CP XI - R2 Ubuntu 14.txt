@@ -1,0 +1,31 @@
+Season XI Round 2 Ubuntu 14 (100/100 Points) (30/30 Vulns)
+-------------------------------------------------------
+Forensics Question 1 correct - 7 pts
+Forensics Question 2 correct - 7 pts
+Created user account zachary - 3 pts
+Guest account is disabled - 2 pts 
+Removed aunauthorized user himiko - 2 pts
+Removed ftp user - 2 pts 
+User samantha is not an administrator - 2 pts 
+User nadia is not an administrator - 2 pts 
+Changed insecure password for user conrad - 2 pts
+A minimum password length is required - 4 pts 
+A default minimum password age is set - 4 pts 
+An account lockout policy is configured - 4 pts 
+IPv4 forwarding has been disabled - 4 pts 
+Firewall protection has been enabled - 3 pts 
+Apache2 service has been disabled or removed - 4 pts 
+Samba service has been disabled or removed - 4 pts 
+Install updates from important security updates - 2 pts 
+Linux kernel has been updated - 2 pts 
+OpenSSL shared libraries have been updated - 2 pts 
+7zip has been updated - 3 pts 
+Pure FTP has been updated - 3 pts 
+Prohibited MP3 files are removed - 2 pts 
+Prohibited Software Kismet removed - 3 pts 
+Prohibited software Nmap removed - 3 pts 
+Prohibited software Freeciv removed - 3 pts 
+Removed netcat backdoor - 5 pts 
+SSH root login has been disabled - 4 pts 
+FTP anonymous access is disabled - 4 pts 
+FTP plain-text authentication disabled - 4 pts 

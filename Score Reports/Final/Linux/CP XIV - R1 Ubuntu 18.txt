@@ -1,0 +1,21 @@
+Season XIV Round 1 Ubuntu 18 (100/100 Points) (21/21 Vulns)
+-------------------------------------------------------
+Forensics Question 1 correct - 7 pts
+Forensics Question 2 correct - 7 pts
+Forensics Question 3 correct - 7 pts
+Removed unauthroized user jwheeler - 3 pts
+Removed unauthroized user jevans - 3 pts
+User carl is not an administrator - 4 pts
+User arki is not an administrator - 4 pts
+Changed insecure passwork for user gclark - 5 pts
+Created user account dgould - 5 pts
+Uncomplicated Firewall (UFW) protection has been enabled - 6 pts
+Icecast2 service has been disabled or removed - 6 pts
+The system automatically checks for updates daily - 5 pts
+Install updates from important security updates - 4 pts
+APT has been updated - 4 pts
+Firefox has been updated - 4 pts
+Prohibited plaintext credit card data removed - 5 pts
+Prohibited software aMule removed - 4 pts
+Prohibited sofware nmapsi4 removed - 4 pts
+Firefox blocks dangerous downloads - 5 pts
