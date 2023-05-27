@@ -280,9 +280,6 @@ Dnf() {
 	echo "Printed network scan to desktop"
 	netstat -tulpn >> networkscan.txt
 
-	echo "Printing hidden processes to desktop"
-	unhide -m -d -f -v  sys procall brute reverse >> unhideprocesses.txt
-
 	echo "Printing NMAP scan to desktop"
 	dnf install nmap -y
 	nmap -T4 -A -v localhost >> nmapscan.txt
