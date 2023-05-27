@@ -269,7 +269,7 @@ Dnf() {
 	echo "Finished."
 
 	echo "Echoing all packages to a Desktop text file for examination."
-	dpkg -l >> allpackages.txt
+	dnf list >> allpackages.txt
 
 	echo "Printed root processes to desktop"
 	ps Zaux >> rootprocesses.txt
