@@ -714,35 +714,35 @@ SSH() {
 		printf "\033[1;31mRunning SSH()\033[0m\n"
 		ufw allow 22
 		
-		echo "Port 22" > /etc/ssh/sshd_config
-		echo "PermitRootLogin no" >> /etc/ssh/sshd_config
-		echo "Protocol 2" >> /etc/ssh/sshd_config
-		echo "LoginGRaceTime 2m" >> /etc/ssh/sshd_config
-		echo "IgnoreRhosts yes" >> /etc/ssh/sshd_config
-		echo "HostbasedAUthentication no" >> /etc/ssh/sshd_config
-		echo "RhostsRSAAuthentication no" >> /etc/ssh/sshd_config
-		echo "UsePrivilegeSeparation yes" >> /etc/ssh/sshd_config
-		echo "StrictModes yes" >> /etc/ssh/sshd_config
-		echo "VerifyReverseMapping yes" >> /etc/ssh/sshd_config
-		echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
-		echo "PubkeyAuthentication yes" >> /etc/ssh/sshd_config
-		echo "ChallengeResponseAuthentication yes" >> /etc/ssh/sshd_config
-		echo "LogLevel VERBOSE" >> /etc/ssh/sshd_config
-		echo "AllowTcpForwarding no" >> /etc/ssh/sshd_config
-		echo "X11Forwarding no" >> /etc/ssh/sshd_config
-		echo "SyslogFacility AUTH" >> /etc/ssh/sshd_config
-		echo "PermitEmptyPasswords no" >> /etc/ssh/sshd_config
-		echo "MaxStartups 2" >> /etc/ssh/sshd_config
-		echo "PermitUserEnvironment no" >> /etc/ssh/sshd_config
-		echo "MaxAuthTries 3" >> /etc/ssh/sshd_config
-		echo "UseDNS no" >> /etc/ssh/sshd_config
-		echo "PermitTunnel no" >> /etc/ssh/sshd_config
-		echo "ClientAliveInterval 300" >> /etc/ssh/sshd_config
-		echo "ClientAliveCountMax 0" >> /etc/ssh/sshd_config
-		echo "PrintLastLog no" >> /etc/ssh/sshd_config
-		echo "MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512,hmac-sha2-256" >> /etc/ssh/sshd_config
-		sed -i "s/#Banner none/Banner \/etc\/issue\.net/g" /etc/ssh/sshd_config
-		echo "Welcome!" > /etc/issue.net
+		# echo "Port 22" > /etc/ssh/sshd_config
+		# echo "PermitRootLogin no" >> /etc/ssh/sshd_config
+		# echo "Protocol 2" >> /etc/ssh/sshd_config
+		# echo "LoginGRaceTime 2m" >> /etc/ssh/sshd_config
+		# echo "IgnoreRhosts yes" >> /etc/ssh/sshd_config
+		# echo "HostbasedAUthentication no" >> /etc/ssh/sshd_config
+		# echo "RhostsRSAAuthentication no" >> /etc/ssh/sshd_config
+		# echo "UsePrivilegeSeparation yes" >> /etc/ssh/sshd_config
+		# echo "StrictModes yes" >> /etc/ssh/sshd_config
+		# echo "VerifyReverseMapping yes" >> /etc/ssh/sshd_config
+		# echo "PasswordAuthentication yes" >> /etc/ssh/sshd_config
+		# echo "PubkeyAuthentication yes" >> /etc/ssh/sshd_config
+		# echo "ChallengeResponseAuthentication yes" >> /etc/ssh/sshd_config
+		# echo "LogLevel VERBOSE" >> /etc/ssh/sshd_config
+		# echo "AllowTcpForwarding no" >> /etc/ssh/sshd_config
+		# echo "X11Forwarding no" >> /etc/ssh/sshd_config
+		# echo "SyslogFacility AUTH" >> /etc/ssh/sshd_config
+		# echo "PermitEmptyPasswords no" >> /etc/ssh/sshd_config
+		# echo "MaxStartups 2" >> /etc/ssh/sshd_config
+		# echo "PermitUserEnvironment no" >> /etc/ssh/sshd_config
+		# echo "MaxAuthTries 3" >> /etc/ssh/sshd_config
+		# echo "UseDNS no" >> /etc/ssh/sshd_config
+		# echo "PermitTunnel no" >> /etc/ssh/sshd_config
+		# echo "ClientAliveInterval 300" >> /etc/ssh/sshd_config
+		# echo "ClientAliveCountMax 0" >> /etc/ssh/sshd_config
+		# echo "PrintLastLog no" >> /etc/ssh/sshd_config
+		# echo "MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512,hmac-sha2-256" >> /etc/ssh/sshd_config
+		# sed -i "s/#Banner none/Banner \/etc\/issue\.net/g" /etc/ssh/sshd_config
+		# echo "Welcome!" > /etc/issue.net
 
 		printf "\e[1;34mFinished SSH() function!\e[0m"
 		echo ""
