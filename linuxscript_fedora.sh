@@ -188,7 +188,6 @@ Dnf() {
 	dnf remove minetest-server -y
 	dnf remove armitage -y
 	dnf remove crack -y
-	dnf pureg knocker -y
 	dnf remove aircrack-ng -y
 	dnf remove hunt -y
 	dnf remove airbase-ng -y
@@ -327,7 +326,7 @@ PasswordsAccounts(){
 	printf "\e[1;34mStarted PasswordsAccounts() function!\e[0m"
 	echo "Using chattr -i on files."
 	chattr -i /etc/passwd
-    chattr -i /etc/passwd
+    	chattr -i /etc/passwd
 	chattr -i /etc/profile
 	chattr -i /etc/bash.bashrc
 	chattr -i /etc/login.defs
@@ -384,7 +383,7 @@ PasswordsAccounts(){
 	echo "LOG_OK_LOGINS		no" >> /etc/login.defs
 	echo "SYSLOG_SU_ENAB   yes" >> /etc/login.defs
 	echo "SYSLOG_SG_ENAB   yes" >> /etc/login.defs
-	echo "LOGIN RETRIES	  5" >> /etc/login.defs
+	echo "LOGIN_RETRIES	  5" >> /etc/login.defs
 	echo "ENCRYPT_METHOD SHA512" >> /etc/login.defs
 	echo "SU_NAME	  su" >> /etc/login.defs
 	echo "MD5_CRYPT_ENAB yes" >> /etc/login.defs
@@ -434,52 +433,52 @@ Apache(){
 		chattr -i /etc/httpd/conf/httpd.conf
 		dnf install mod_security
 
-		echo "HostnameLookups Off" >> /etc/httpd/conf/httpd.conf
-		echo "LogLevel warn" >> /etc/httpd/conf/httpd.conf
-		echo "ServerTokens Prod" >> /etc/httpd/conf/httpd.conf
-		echo "ServerSignature Off"  >> /etc/httpd/conf/httpd.conf
-		echo "Options all -Indexes" >> /etc/httpd/conf/httpd.conf
-		echo "Header unset ETag" >> /etc/httpd/conf/httpd.conf
-		echo "Header always unset X-Powered-By" >> /etc/httpd/conf/httpd.conf
-    	echo "FileETag None" >> /etc/httpd/conf/httpd.conf
- 		echo "TraceEnable off" >> /etc/httpd/conf/httpd.conf
-		echo "Timeout 30" >> /etc/httpd/conf/httpd.conf
+		# echo "HostnameLookups Off" >> /etc/httpd/conf/httpd.conf
+		# echo "LogLevel warn" >> /etc/httpd/conf/httpd.conf
+		# echo "ServerTokens Prod" >> /etc/httpd/conf/httpd.conf
+		# echo "ServerSignature Off"  >> /etc/httpd/conf/httpd.conf
+		# echo "Options all -Indexes" >> /etc/httpd/conf/httpd.conf
+		# echo "Header unset ETag" >> /etc/httpd/conf/httpd.conf
+		# echo "Header always unset X-Powered-By" >> /etc/httpd/conf/httpd.conf
+    	        # echo "FileETag None" >> /etc/httpd/conf/httpd.conf
+ 		# echo "TraceEnable off" >> /etc/httpd/conf/httpd.conf
+		# echo "Timeout 30" >> /etc/httpd/conf/httpd.conf
 
-		echo "<Directory />" >> /etc/httpd/conf/httpd.conf
-		echo "        AllowOverride None" >> /etc/httpd/conf/httpd.conf
-		echo "        Order Deny,Allow" >> /etc/httpd/conf/httpd.conf
-		echo "        Options None" >> /etc/httpd/conf/httpd.conf
-		echo "        Deny from all" >> /etc/httpd/conf/httpd.conf
-		echo "</Directory>" >> /etc/httpd/conf/httpd.conf
+		# echo "<Directory />" >> /etc/httpd/conf/httpd.conf
+		# echo "        AllowOverride None" >> /etc/httpd/conf/httpd.conf
+		# echo "        Order Deny,Allow" >> /etc/httpd/conf/httpd.conf
+		# echo "        Options None" >> /etc/httpd/conf/httpd.conf
+		# echo "        Deny from all" >> /etc/httpd/conf/httpd.conf
+		# echo "</Directory>" >> /etc/httpd/conf/httpd.conf
 
-		echo "<Directory /var/www/html>" >> /etc/httpd/conf/httpd.conf
-		echo "    Options -Indexes" >> /etc/httpd/conf/httpd.conf
-		echo "</Directory>" >> /etc/httpd/conf/httpd.conf
+		# echo "<Directory /var/www/html>" >> /etc/httpd/conf/httpd.conf
+		# echo "    Options -Indexes" >> /etc/httpd/conf/httpd.conf
+		# echo "</Directory>" >> /etc/httpd/conf/httpd.conf
 
-		echo "<IfModule mod_headers.c>" >> /etc/httpd/conf/httpd.conf
-		echo "Header set X-XSS-Protection 1; mode=block" >> /etc/httpd/conf/httpd.conf
-		echo "</IfModule>" >> /etc/httpd/conf/httpd.conf
+		# echo "<IfModule mod_headers.c>" >> /etc/httpd/conf/httpd.conf
+		# echo "Header set X-XSS-Protection 1; mode=block" >> /etc/httpd/conf/httpd.conf
+		# echo "</IfModule>" >> /etc/httpd/conf/httpd.conf
 
-		echo "RewriteEngine On" >> /etc/httpd/conf/httpd.conf
+		# echo "RewriteEngine On" >> /etc/httpd/conf/httpd.conf
 
 				# Secure root directory
-		echo "<Directory />" >> /etc/httpd/conf-available/security.conf
-		echo "Options -Indexes" >> /etc/httpd/conf-available/security.conf
-		echo "AllowOverride None" >> /etc/httpd/conf-available/security.conf
-		echo "Order Deny,Allow" >> /etc/httpd/conf-available/security.conf
-		echo "Deny from all" >> /etc/httpd/conf-available/security.conf
-		echo "</Directory>" >> /etc/httpd/conf-available/security.conf
+		# echo "<Directory />" >> /etc/httpd/conf-available/security.conf
+		# echo "Options -Indexes" >> /etc/httpd/conf-available/security.conf
+		# echo "AllowOverride None" >> /etc/httpd/conf-available/security.conf
+		# echo "Order Deny,Allow" >> /etc/httpd/conf-available/security.conf
+		# echo "Deny from all" >> /etc/httpd/conf-available/security.conf
+		# echo "</Directory>" >> /etc/httpd/conf-available/security.conf
 
 		# Secure html directory
-		echo "<Directory /var/www/html>" >> /etc/httpd/conf-available/security.conf
-		echo "Options -Indexes -Includes" >> /etc/httpd/conf-available/security.conf
-		echo "AllowOverride None" >> /etc/httpd/conf-available/security.conf
-		echo "Order Allow,Deny" >> /etc/httpd/conf-available/security.conf
-		echo "Allow from All" >> /etc/httpd/conf-available/security.conf
-		echo "</Directory>" >> /etc/httpd/conf-available/security.conf
+		# echo "<Directory /var/www/html>" >> /etc/httpd/conf-available/security.conf
+		# echo "Options -Indexes -Includes" >> /etc/httpd/conf-available/security.conf
+		# echo "AllowOverride None" >> /etc/httpd/conf-available/security.conf
+		# echo "Order Allow,Deny" >> /etc/httpd/conf-available/security.conf
+		# echo "Allow from All" >> /etc/httpd/conf-available/security.conf
+		# echo "</Directory>" >> /etc/httpd/conf-available/security.conf
 
 		# Use TLS only
-		sed -i "s/SSLProtocol all -SSLv3/SSLProtocol –ALL +TLSv1 +TLSv1.1 +TLSv1.2/" /etc/httpd/mods-available/ssl.conf
+		# sed -i "s/SSLProtocol all -SSLv3/SSLProtocol –ALL +TLSv1 +TLSv1.1 +TLSv1.2/" /etc/httpd/mods-available/ssl.conf
 
 		# Use strong cipher suites
 		sed -i "s/SSLCipherSuite HIGH:\!aNULL/SSLCipherSuite HIGH:\!MEDIUM:\!aNULL:\!MD5:\!RC4/" /etc/httpd/mods-available/ssl.conf
@@ -506,7 +505,7 @@ Apache(){
 		sed -i "s/Timeout/Timeout 60/" /etc/httpd/conf/httpd.conf
 		echo "Timeout 60" >> /etc/httpd/conf/httpd.conf
 
-		chown -R root:root /etc/httpd
+		# chown -R root:root /etc/httpd
 
 		printf "\e[1;34mFinished Apache() function!\e[0m"
 		echo ""
@@ -707,222 +706,6 @@ PHP() {
 		echo "max_input_time = 60" >> /etc/php.ini
 		printf "\e[1;34mFinished PHP() function!\e[0m"
 		echo ""
-
-		#Fuck it I'm dumping a CIS benchmark in here. If this breaks, have fun LOL
-		echo " ----start of CIS dump haha----
-		[PHP]
-engine = On
-short_open_tag = Off
-asp_tags = Off
-precision = 14
-y2k_compliance = On
-output_buffering = 4096
-zlib.output_compression = Off
-implicit_flush = Off
-unserialize_callback_func =
-serialize_precision = 17
-allow_call_time_pass_reference = Off
-safe_mode = Off
-safe_mode_gid = Off
-safe_mode_include_dir =
-safe_mode_exec_dir =
-safe_mode_allowed_env_vars = PHP_
-safe_mode_protected_env_vars = LD_LIBRARY_PATH
-open_basedir = \"/var/www/html:/tmp\"
-disable_functions = proc_open, popen, disk_free_space, diskfreespace, set_time_limit, leak, tmpfile, exec, system, shell_exec, passthru, show_source, system, phpinfo, pcntl_alarm, pcntl_fork, pcntl_waitpid, pcntl_wait, pcntl_wifexited, pcntl_wifstopped, pcntl_wifsignaled, pcntl_wexitstatus, pcntl_wtermsig, pcntl_wstopsig, pcntl_signal, pcntl_signal_dispatch, pcntl_get_last_error, pcntl_strerror, pcntl_sigprocmask, pcntl_sigwaitinfo, pcntl_sigtimedwait, pcntl_exec, pcntl_getpriority, pcntl_setpriority
-disable_classes =
-zend.enable_gc = On
-expose_php = Off
-max_execution_time = 30
-max_input_time = 60
-memory_limit = 128M
-error_reporting = E_COMPILE_ERROR|E_RECOVERABLE_ERROR|E_ERROR|E_CORE_ERROR
-display_errors = Off
-display_startup_errors = Off
-log_errors = On
-log_errors_max_len = 1024
-error_log = /var/log/php.log
-ignore_repeated_errors = Off
-ignore_repeated_source = Off
-report_memleaks = On
-track_errors = Off
-html_errors = Off
-variables_order = \"GPCS\"
-request_order = \"GP\"
-register_globals = Off
-register_long_arrays = Off
-register_argc_argv = Off
-auto_globals_jit = On
-post_max_size = 8M
-magic_quotes_gpc = Off
-magic_quotes_runtime = Off
-magic_quotes_sybase = Off
-auto_prepend_file =
-auto_append_file =
-default_mimetype = \"text/html\"
-default_charset = \"utf-8\"
-doc_root =
-user_dir =
-enable_dl = Off
-file_uploads = On
-upload_max_filesize = 2M
-max_file_uploads = 20
-allow_url_fopen = Off
-allow_url_include = Off
-default_socket_timeout = 60
-
-[Pcre]
-
-pcre.recursion_limit=1000
-
-[Pdo_mysql]
-
-pdo_mysql.cache_size = 2000
-pdo_mysql.default_socket=
-
-[Syslog]
-
-define_syslog_variables  = Off
-
-[mail function]
-
-smtp_port = 25
-mail.add_x_header = On
-
-[SQL]
-
-sql.safe_mode = Off
-
-[ODBC]
-
-odbc.allow_persistent = On
-odbc.check_persistent = On
-odbc.max_persistent = -1
-odbc.max_links = -1
-odbc.defaultlrl = 4096
-odbc.defaultbinmode = 1
-
-
-[Interbase]
-
-ibase.allow_persistent = 1
-ibase.max_persistent = -1
-ibase.max_links = -1
-
-[MySQL]
-
-mysql.allow_local_infile = On
-mysql.allow_persistent = On
-mysql.cache_size = 2000
-mysql.max_persistent = -1
-mysql.max_links = -1
-mysql.default_port =
-mysql.default_socket =
-mysql.default_host =
-mysql.default_user =
-mysql.default_password =
-mysql.connect_timeout = 60
-mysql.trace_mode = Off
-
-[MySQLi]
-
-mysqli.max_persistent = -1
-mysqli.allow_persistent = On
-mysqli.max_links = -1
-mysqli.cache_size = 2000
-mysqli.default_port = 3306
-mysqli.default_socket =
-mysqli.default_host =
-mysqli.default_user =
-mysqli.default_pw =
-mysqli.reconnect = Off
-
-[mysqlnd]
-
-mysqlnd.collect_statistics = On
-mysqlnd.collect_memory_statistics = Off
-[OCI8]
-
-
-[PostgreSQL]
-
-pgsql.allow_persistent = On
-pgsql.auto_reset_persistent = Off
-pgsql.max_persistent = -1
-pgsql.max_links = -1
-pgsql.ignore_notice = 0
-pgsql.log_notice = 0
-
-[Sybase-CT]
-
-sybct.allow_persistent = On
-sybct.max_persistent = -1
-sybct.max_links = -1
-sybct.min_server_severity = 10
-sybct.min_client_severity = 10
-
-[bcmath]
-
-bcmath.scale = 0
-
-[browscap]
-
-
-[Session]
-
-session.save_handler = files
-session.use_cookies = 1
-session.use_only_cookies = 1
-session.name = PHPSESSID
-session.auto_start = 0
-session.cookie_lifetime = 3600
-session.cookie_path = /
-session.cookie_domain =
-session.cookie_httponly =
-session.serialize_handler = php
-session.gc_probability = 0
-session.gc_divisor = 1000
-session.gc_maxlifetime = 1440
-session.bug_compat_42 = Off
-session.bug_compat_warn = Off
-session.referer_check =
-session.entropy_length = 0
-session.cache_limiter = nocache
-session.cache_expire = 180
-session.use_trans_sid = 0
-session.hash_function = 0
-session.hash_bits_per_character = 5
-url_rewriter.tags = \"a=href,area=href,frame=src,input=src,form=fakeentry\"
-
-[MSSQL]
-
-mssql.allow_persistent = On
-mssql.max_persistent = -1
-mssql.max_links = -1
-mssql.min_error_severity = 10
-mssql.min_message_severity = 10
-mssql.compatability_mode = Off
-mssql.secure_connection = Off
-mssql.secure_connection = On
-
-[Tidy]
-
-tidy.clean_output = Off
-
-[soap]
-
-soap.wsdl_cache_enabled=1
-soap.wsdl_cache_dir=\"/tmp\"
-soap.wsdl_cache_ttl=86400
-soap.wsdl_cache_limit = 5
-
-[ldap]
-
-ldap.max_links = -1
-" >> /etc/php.ini
-
-	fi
-
 }
 
 SSH() {
