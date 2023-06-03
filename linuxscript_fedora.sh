@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# TODO add firewalld check and respective rule additions
+
 Main(){
 	clear
 
