@@ -892,8 +892,6 @@ File(){
 	chmod og-rwx /etc/crontab
 	chmod -R g-wx,o-rwx /var/log/
 
-	crontab -r
-
 	printf "\e[1;34mFinished File() function!\e[0m"
 
 }
